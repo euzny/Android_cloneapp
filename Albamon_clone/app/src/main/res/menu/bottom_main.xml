@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="홈"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/restart"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        android:title="새로고침"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/recom"
+        android:icon="@drawable/target"
+        android:title="스마트추천"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/recent"
+        android:icon="@drawable/rec"
+        android:title="최근본알바"
+        app:showAsAction="ifRoom"  />
+
+    <item
+        android:id="@+id/easytool"
+        android:icon="@drawable/easy"
+        android:title="간편알바툴"
+        app:showAsAction="ifRoom"  />
+
+
+</menu>
